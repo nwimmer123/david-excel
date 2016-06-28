@@ -1,0 +1,9 @@
+{
+  "name": "eXceleXceleXcel",
+  "main": "server.js",
+  "dependencies": {
+    "ejs": "^2.4.2",
+    "express": "^4.13.4",
+    "nodemon": "^1.9.2"
+  }
+}
