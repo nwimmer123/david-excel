@@ -1,5 +1,15 @@
+// SERVER-SIDE JAVASCRIPT
+
 var express = require('express');
 var app = express();
+var flash = require('connect-flash');
+
+var cookieParser = require('cookie-parser');
+var bodyParser = require('body-parser');
+var session = require('express-session');
+
+var html = require('html');
+
 
 // serve static files from public folder
 app.use('/',express.static(__dirname + '/public'));
