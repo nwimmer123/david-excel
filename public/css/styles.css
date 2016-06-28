@@ -19,17 +19,13 @@ h2 {
   text-align: center;
 }
 
-.logos {
-  max-height: 100px;
-  margin: 5px;
+.img-responsive {
+  vertical-align: middle;
 }
 
+.carousel-control {
+  padding-top:10%;
+  width:5%;
+}
 
-.carousel-inner .active.left  { left: -33%;             }
-.carousel-inner .active.right { left: 33%;              }
-.carousel-inner .next         { left: 33%               }
-.carousel-inner .prev         { left: -33%              }
-.carousel-control.left        { background-image: none; }
-.carousel-control.right       { background-image: none; }
-.carousel-inner .item         { background: white;      }
 
