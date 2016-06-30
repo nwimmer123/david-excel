@@ -3,17 +3,14 @@ body {
   font-family: 'Arvo', serif;
 };
 
-#david {
-  margin-right: 10px;
-}
-
 .navbutton {
   margin-top: 10px;
 }
 
-img {
+#david {
   float: left;
   margin-right: 10px;
+  border-radius: 15px;
 }
 
 h2 {
@@ -32,5 +29,15 @@ h2 {
 .question {
   font-weight: bold;
 }
+
+
+#banner {
+  background:url('/images/building.jpg') no-repeat center center;
+  min-height:100%;
+  background-size:cover;
+  padding: 50px 0px 50px 0px;
+  font-size: x-large;
+}
+
 
 
