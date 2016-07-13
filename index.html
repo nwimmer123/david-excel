@@ -23,28 +23,26 @@
   <script src="js/app.js"></script>
 
 </head>
+
 <body>
 
   <header>
     <nav class="navbar navbar-default" role="navigation">
     <div class="container-fluid">
         
-        <ul class="nav navbar-nav">
-            <li><a href="/">Home</a></li>
-        </ul>
-        <div class="collapse navbar-collapse collapse">
+      <div class="collapse navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
-            <a class="btn navbutton" >Bio</a></button>
-            <a class="btn navbutton" >Clients</a></button>
-            <a class="btn navbutton" href="faq">FAQ</a></button>
+          <a class="btn navbutton" href="#bio">Bio</a></button>
+          <a class="btn navbutton" href="#clients">Clients</a></button>
+          <a class="btn navbutton" href="#faq">FAQ</a></button>
+          <a class="btn navbutton" href="#contact">Contact</a></button>
         </ul>
       </div><!-- /.navbar-collapse -->
       
     </div>
-</nav>
+    </nav>
   </header>
 
-  <main>
     <div id= "banner">
       <div class="container">
         <h1>David Jenkins</h1>
@@ -66,10 +64,11 @@
       <!-- <div class="container"> -->
       <h3>I Deliver Consistent Excel Results</h3>
       <p>
-          If you need a custom worksheet, Excel VBA programming or an advaced Excel databeasse, David Jenkins will meet your needs and exceed your expectations.
+          If you need a custom worksheet, Excel VBA programming or an advaced Excel database, David Jenkins will meet your needs and exceed your expectations.
       </p>
 
       <h2>Bio</h2>
+        <a name="bio"></a>
       <img id="david" src="../images/david.jpg">
       <p> 
         David Jenkins has a Master’s degree in Computer Science from Brunel University in England and a Bachelor’s degree in Mathematics from Manchester University.
@@ -80,6 +79,7 @@
     </div>
 
     <h2>Clients</h2>
+      <a name="clients"></a>
     <div class="container">
       <div class="col-md-12">
          
@@ -127,6 +127,7 @@
 
     <div id="faq">
       <h2>FAQ</h2>
+        <a name="faq"></a>
 
         <div class="faq_container container">
           <div class="faq">
@@ -264,14 +265,12 @@
 
     <div id="contact">
       <h2>Contact</h2>
-      <p>
+      <a name="contact"></a>
     </div>
-        
-    </main>
 
-    <footer>
-      <p class="footer text-center text-muted">© Copyright 2016 eXceleXceleXcel</p>
-    </footer>
+  <footer>
+    <p class="footer text-center text-muted">© Copyright 2016 eXceleXceleXcel</p>
+  </footer>
     
 </body>
 </html>
