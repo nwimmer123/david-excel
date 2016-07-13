@@ -1,22 +1,14 @@
-// SERVER-SIDE JAVASCRIPT
-
 var express = require('express');
 var app = express();
+var html = require('html');
 
 app.use('/',express.static(__dirname + '/public'));
 
-app.set('view engine', 'ejs');
-
 // ROUTES
 
-app.get('/', function(req,res) {
-  res.render('pages/index');
+app.get('/', function homepage (req, res) {
+  res.sendFile(__dirname + '/index.html');
 });
-
-app.get('/faq', function(req,res) {
-  res.render('pages/faq');
-});
-
 
 // SERVER 
 
