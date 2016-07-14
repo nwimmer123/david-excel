@@ -5,7 +5,6 @@ $(document).ready(function() {
   })
     
   $('#myCarousel').on('slid.bs.carousel', function() {
-      //alert("slid");
   });
 
   $('.faq_question').click(function() {
