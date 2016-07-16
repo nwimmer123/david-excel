@@ -79,6 +79,14 @@ nav {
   margin-bottom: 0px;
 }
 
+input {
+  border: none;
+  outline:none;
+  background: rgba(0,0,0,0);
+  color: blue;
+  cursor: pointer;
+}
+
 
 
 
